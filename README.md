@@ -98,7 +98,7 @@ pip install fastapi uvicorn[standard] transformers torch Pillow
 **Для Apple Silicon (M1/M2/M3/M4):**
 Установите PyTorch с поддержкой MPS по [официальной инструкции](https://pytorch.org)
 
-## 🚀 Запуск сервера
+## Запуск сервера
 
 ```bash
 uvicorn app:app --host 0.0.0.0 --port 8000
